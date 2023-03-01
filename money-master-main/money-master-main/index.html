@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    .block{
+        width: 229px;
+height: 44px;
+left: 1067px;
+top: 498px;
+border-radius: 2px;
+margin-left: 100px;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 class="text-5xl text-cyan-500 text-center mt-12">Money Master</h1>
+    <main>
+        <section class="">
+            <div class="grid grid-cols-2 mx-auto w-9/12 mt-12">
+                <div class=""><img src="./preview (1).png" alt=""></div>
+                <div class="text-center border-black border-current bg-slate-600	">
+                    <h3>Income</h3>
+                    <input class="block bg-slate-200" id="income-field" type="text" placeholder=" $ 1000">
+
+                    <h2>Expenses</h2>
+                    <div class="field ">
+                        <input class="block bg-slate-200" id="food-field" type="text" placeholder=" $000">
+                        <input class="block bg-slate-200" id="rent-field" type="text" placeholder=" $000">
+                        <input class="block bg-slate-200" id="clothes-field" type="text" placeholder=" $000">
+                        <button id="btn-calculate" class="bg-amber-600 hover:bg-sky-700  px-8 py-2 text-white font-medium rounded-lg mt-3 ">Calculate</button>
+
+                        <h2>Total Expenses <span id="total-expenses">5500</span></h2>
+                        <h2>Balance<span id="total-balance">4500</span></h2>
+
+                        <input class="block bg-slate-200" id="save-field" type="text" placeholder=" $000">
+                        <button id="btn-save" class="bg-amber-600 hover:bg-sky-700  px-8 py-2 text-white font-medium rounded-lg mt-3 ">Save</button>
+                        <h2>Saving Amount :<span id="total-saving">2000</span></h2>
+                        <h2>Remaining Balance :<span id="total-remaining">2500</span></h2>
+
+
+
+
+
+
+                    </div>
+
+                
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="money.js"></script>
+    
+</body>
+</html>
